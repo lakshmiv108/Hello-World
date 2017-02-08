@@ -1,0 +1,18 @@
+
+1. Suppose Dr. Copper urgently need to report some newly discovered prime numbers and you would help to send the data from one of the computers in Lee's Summit campus to a server in Warrensburg campus. The computer is connected with a 100BASE-TX Ethernet over twisted pair. The size of data is so large that we need 1000 single-sided DVDs to store all numbers. Dr. Silver suggests you sending all the data completely through the network. Dr. Gold suggests you sending all DVDs by using UPS ground transportation service. Further, we suppose all the data are already stored in that one single machine and all DVDs are already burned with data. If the only factor we consider is time, who would you agree with, Dr. Silver or Dr. Gold? Define all necessary terms, make proper assumptions, and justify your answer.
+
+2. If you want to do a transaction from a remote client to a server, which type of protocol would you use, TCP or UDP? Why? Please provide details with your assumed situations.
+
+3. Is it technically possible for a professor in the department to know where his students sent the email, if (1) they are using with an .edu email address? (2) they are using the email address such as @yahoo.com or @hotmail.com ? Why? (Note: Your answer will be graded based on correctness and analytical process, not the number of words.)
+
+
+1) I agree with Dr.Gold because the size of the newly discovered prime number is nearly equal to 4700GB(as each single sided dvd max size is 4.7GB for 1000 single sided dvds it is 4700GB).sending all DVDs by using UPS ground transportation from Lee's summit campus to Warrensburg campus it takes maximum 2 days(atmost 2 days).
+According to Dr.Silver network speed that is 100BASE-TX Ethernet over twisted pair is 100Mbps.For 4700GB(37600000Mb) it takes 104.44 hours i.e, 4.35 days.so I would prefer Dr.Gold suggestion.
+
+
+2) I would prefer TCP because in my assumption realiability,flow control,acknowledgement and congestion control is important rather than speed,weight.TCP is better for communication between remote client and server because it is a connection oriented, even if connection is lost the server will request the lost part, there is no corruption while transferring a messages.Even order of messages plays major role in better understanding.TCP is better for e-mail,FTP and secure shells etc.
+Most of them use UDP for transactions but it is better for streaming multimedia applications such as IPTV or movies, Voice over IP (VoIP), Trivial File Transfer Protocol (TFTP) and online multiplayer games etc.because even if there is lose or delay no such big difference.
+
+3)In the first case, access is made available only if permission is granted by the university officials, and can also find where the message is delevered as each computer on the network is assigned an identification code, or IP (Internet Protocol) address. 
+ In the second case it is not possible for a professor to find where his student is sending the public email  communications. In the case of an emergency defined as immediate danger to life and limb. This law, however, applies only to "public communications," this communication can access by employers and contractors otherwise it is voilating law or policy.permission will not be given to other people.
+
